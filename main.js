@@ -1,5 +1,3 @@
-
-
 createPolygon = (points, color, delta) => {
     const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
     polygon.setAttribute("fill", color);
